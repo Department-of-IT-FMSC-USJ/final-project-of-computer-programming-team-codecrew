@@ -84,7 +84,7 @@ def registration_page():
             st.error("Contact number must be 10 digits")
             return
 
-        if not (nic.isdigit() and len(nic) == 13):
+        if not (nic.isdigit() and len(nic) == 12):
             st.error("NIC must be 13 digits")
             return
 
